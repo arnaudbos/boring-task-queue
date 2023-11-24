@@ -1,0 +1,6 @@
+#DataSourceSettings#
+        #LocalDataSource: btq@localhost
+        #BEGIN#
+<data-source source="LOCAL" name="btq@localhost" uuid="afd283e5-ecb4-4ce1-a0ca-c9d003504c45"><database-info product="PostgreSQL" version="16.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="16.0" exact-driver-version="42.6"><identifier-quote-string>&quot;</identifier-quote-string></database-info><case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/><driver-ref>postgresql</driver-ref><synchronize>true</synchronize><auto-commit>true</auto-commit><isolation>2</isolation><jdbc-driver>org.postgresql.Driver</jdbc-driver><jdbc-url>jdbc:postgresql://localhost:5432/btq</jdbc-url><jdbc-additional-properties><property name="com.intellij.clouds.kubernetes.db.enabled" value="false"/></jdbc-additional-properties><secret-storage>master_key</secret-storage><user-name>btq</user-name><schema-mapping><introspection-scope><node kind="database" qname="@"><node kind="schema" qname="@"/></node></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
+        #END#
+

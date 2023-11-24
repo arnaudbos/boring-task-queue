@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PostgresTaskQueue.tla" type="TLCRunConfiguration" factoryName="TLC">
+    <option name="file" value="$PROJECT_DIR$/src/main/tla+/PostgresTaskQueue.tla" />
+    <option name="jvmOptions" value="-XX:+UseParallelGC" />
+    <option name="tlcArguments" value="-workers 16 -dump dot,actionlabels,colorize $PROJECT_DIR$/src/main/tla+/states/PostgresTaskQueue.dot" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/src/main/tla+" />
+    <method v="2">
+      <option name="TLC.BeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
